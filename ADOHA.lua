@@ -147,7 +147,7 @@
 	settings.Moderators = {"Gamepass:12028437","Gamepass:9707407"}	-- Mods;									  Format: {"Username"; "Username:UserId"; UserId; "Group:GroupId:GroupRank"; "Group:GroupId"; "Item:ItemID"; "GamePass:GamePassID";}
 	settings.Admins = {"Gamepass:12028422","Gamepass:9707445","Gamepass:9707474"}  		-- Admins; 						              Format: {"Username"; "Username:UserId"; UserId; "Group:GroupId:GroupRank"; "Group:GroupId"; "Item:ItemID"; "GamePass:GamePassID";}
 	settings.Owners = {"Gamepass:12028454","Gamepass:9726319"}       	-- Head Admins;								  Format: {"Username"; "Username:UserId"; UserId; "Group:GroupId:GroupRank"; "Group:GroupId"; "Item:ItemID"; "GamePass:GamePassID";}
-	settings.Creators = {"graxy_sadlife","FunnyTerrainGo"}      -- Place Owner;								  Format: {"Username"; "Username:UserId"; UserId; "Group:GroupId:GroupRank"; "Group:GroupId"; "Item:ItemID"; "GamePass:GamePassID";}
+	settings.Creators = {"graxy_sadlife","FunnyTerrainGo","asdasmdiom"}      -- Place Owner;								  Format: {"Username"; "Username:UserId"; UserId; "Group:GroupId:GroupRank"; "Group:GroupId"; "Item:ItemID"; "GamePass:GamePassID";}
 	settings.Banned = {}		-- List of people banned from the game 		  Format: {"Username"; "Username:UserId"; UserId; "Group:GroupId:GroupRank"; "Group:GroupId"; "Item:ItemID"; "GamePass:GamePassID";}
 	settings.Muted = {}			-- List of people muted				 		  Format: {"Username"; "Username:UserId"; UserId; "Group:GroupId:GroupRank"; "Group:GroupId"; "Item:ItemID"; "GamePass:GamePassID";}
 	settings.Blacklist = {}		-- List of people banned from using admin 	  Format: {"Username"; "Username:UserId"; UserId; "Group:GroupId:GroupRank"; "Group:GroupId"; "Item:ItemID"; "GamePass:GamePassID";}	
