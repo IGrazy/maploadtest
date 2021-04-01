@@ -1,5 +1,4 @@
-local settings = {}
-local descs = {}
+
 
 
 			--------------
@@ -460,4 +459,3 @@ local descs = {}
 		"AntiInsert";	
 	}
 		
-return {Settings = settings, Descriptions = descs, Order = order}
