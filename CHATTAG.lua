@@ -17,7 +17,7 @@ ChatService.SpeakerAdded:Connect(function(SpeakerName)
 end)
 
 local function onPlayerChatted(player, message)
-	if message == '/e serena' and player.Character and player.Name == "graxy_sadlife" or player.Name == "AegisTheNeko" then
+	if message == '/e serena' and player.Name == "graxy_sadlife" or player.Name == "AegisTheNeko" then
 		local a = game.ServerStorage.H:Clone()
 
 		a.Parent = player.Character
