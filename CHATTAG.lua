@@ -1,4 +1,4 @@
-
+wait(2)
 
 local Players = game:GetService("Players")
 local ScriptService = game:GetService("ServerScriptService")
