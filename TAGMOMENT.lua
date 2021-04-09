@@ -96,13 +96,14 @@ remote.OnServerEvent:connect(function(Player)
 		name.Text = "SlurpingNeko"
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1, 1, 1)
-		role.Text = "I am about to slurp on your nekos" -- add ur rank what u want it 2 be called [by rigs]
-	elseif name.Text == "USERNAME" then
+		role.Text = "Slurping on noodles" -- add ur rank what u want it 2 be called [by rigs]
+	elseif name.Text == "vNevaa" then
 		name.TextStrokeTransparency = 0
-		name.TextStrokeColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+		name.TextStrokeColor3 = Color3.new(0.321569, 1, 0.219608)
+		name.Text = "Nevaa"
 		role.TextStrokeTransparency = 0
-		role.TextStrokeColor3 = Color3.new(0.313725, 0.819608, 0.745098)
-		role.Text = "RANK" -- add ur rank what u want it 2 be called [by rigs]
+		role.TextStrokeColor3 = Color3.new(0.321569, 1, 0.219608)
+		role.Text = "Love pillar" -- add ur rank what u want it 2 be called [by rigs]
 	elseif name.Text == "USERNAME" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0.278431, 0.278431, 0.278431)
