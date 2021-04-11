@@ -114,10 +114,10 @@ remote.OnServerEvent:connect(function(Player)
 	elseif name.Text == "ppisbroken" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0, 0.333333, 1)
-		name.Text = "Duck"
+		name.Text = "BurntBiskit"
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(0.219608, 0.623529, 1)
-		role.Text = "quack quack" -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = "Ducks are cool" -- add ur rank what u want it 2 be called [by rigs]
 	elseif name.Text == "blackrzoses" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(1, 0.0392157, 0.984314)
