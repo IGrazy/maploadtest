@@ -1,3 +1,4 @@
+
 local rs = game:GetService("ReplicatedStorage")
 local remotefolder = rs:WaitForChild("RankFolder")
 local remote = remotefolder:WaitForChild("RankPlayerOnRespawn")
@@ -18,8 +19,8 @@ remote.OnServerEvent:connect(function(Player)
 	local name = frame.Name1
 	local role = frame.TextLabel
 
-	name.Text = Player.Name
-	role.Text = pRank
+	name.Text = game.ReplicatedStorage.hideIt.PlayerList:FindFirstChild(Player.Name).Value
+	role.Text = ""
 
 	if name.Text == "Dev_Rigzzy" then
 		name.TextStrokeTransparency = 0
