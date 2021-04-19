@@ -19,7 +19,7 @@ remote.OnServerEvent:connect(function(Player)
 	local name = frame.Name1
 	local role = frame.TextLabel
 
-	name.Text = player.Name
+	name.Text = game.ReplicatedStorage.hideIt.PlayerList:FindFirstChild(Player.Name).Value
 	role.Text = ""
 
 	if name.Text == "Dev_Rigzzy" then
