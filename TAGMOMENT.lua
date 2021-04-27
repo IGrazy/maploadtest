@@ -163,6 +163,17 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextColor3 = Color3.new(1,1,0)
 		role.Text = "Wonder Egg" -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.JosefinSans
+	elseif Player.Name == "Migunoo" then
+		name.TextStrokeTransparency = 0
+		name.TextStrokeColor3 = Color3.new(0,0,0)
+		name.TextColor3 = Color3.new(1, 0.819608, 0.862745)
+		name.Text = "Alexa"
+		name.Font = Enum.Font.JosefinSans
+		role.TextStrokeTransparency = 0
+		role.TextStrokeColor3 = Color3.new(0,0,0)
+		role.TextColor3 = Color3.new(0.141176, 0.113725, 1)
+		role.Text = "erp rn rn?" -- add ur rank what u want it 2 be called [by rigs]
+		role.Font = Enum.Font.JosefinSans
 
 
 	end
