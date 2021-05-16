@@ -211,7 +211,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(1,1,1)
 		name.TextColor3 = Color3.new(0.537255, 0.811765, 0.941177)
-		name.Text = "Annika ._."
+		name.Text = "Annika ^-^"
 		name.Font = Enum.Font.JosefinSans
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
