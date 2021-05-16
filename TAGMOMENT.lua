@@ -216,7 +216,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(0.537255, 0.811765, 0.941177)
-		role.Text = "mArRiEd tO gRaXy" -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = "Married to graxy" -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.JosefinSans
 
 	end
