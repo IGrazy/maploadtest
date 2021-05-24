@@ -7,8 +7,9 @@ remote.OnServerEvent:connect(function(Player)
 	if not Player then
 		print("an error occured fetching the player")
 	end
-    if Player.Character:FindFirstChild("Rank") then
-        Player.Character:FindFirstChild("Rank"):Destroy()
+	if Player.Character:FindFirstChild("Rank") then
+		Player.Character:FindFirstChild("Rank"):Destroy()
+	end
 	local pRank = Player:GetRoleInGroup(696969696996969699696969696969969696969969699696969969696969696996969696)
 	wait(1)
 	local ui = script.Rank:Clone()
