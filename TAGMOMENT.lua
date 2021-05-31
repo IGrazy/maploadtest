@@ -314,7 +314,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextColor3 = Color3.new(0, 0, 0.501961)
 		role.Text = "Manifestation of pog" -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.JosefinSans
-	elseif Player.Name == "DawnDishsao_p" then
+	elseif Player.Name == "DawnDishsoa_p" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0, 1, 1)
 		name.TextColor3 = Color3.new(1, 1, 1)
