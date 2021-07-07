@@ -215,16 +215,16 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextColor3 = Color3.new(0.00784314, 0.894118, 0.992157)
 		role.Text = "Jenny's Child" -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.JosefinSans
-	elseif Player.Name == "anakin_hasthehigrond" then
+	elseif Player.Name == "AnnikaChernov" then
 		name.TextStrokeTransparency = 0
-		name.TextStrokeColor3 = Color3.new(1,1,1)
-		name.TextColor3 = Color3.new(0.537255, 0.811765, 0.941177)
-		name.Text = "Akadius"
+		name.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+		name.TextColor3 = Color3.new(0,0,0)
+		name.Text = "annika"
 		name.Font = Enum.Font.JosefinSans
 		role.TextStrokeTransparency = 0
-		role.TextStrokeColor3 = Color3.new(1,1,1)
-		role.TextColor3 = Color3.new(0.537255, 0.811765, 0.941177)
-		role.Text = "Empress-Goddess of Darkness" -- add ur rank what u want it 2 be called [by rigs]
+		role.TextStrokeColor3 = Color3.new(1, 0.933333, 0.00392157)
+		role.TextColor3 = Color3.new(0,0,0)
+		role.Text = "minecraft fox is best fox" -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.JosefinSans
 	elseif Player.Name == "Finiskyy" then
 		name.TextStrokeTransparency = 0
