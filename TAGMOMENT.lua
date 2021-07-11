@@ -518,7 +518,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeTransparency = 1
 		name.TextStrokeColor3 = Color3.new(0,0,0)
 		name.TextColor3 = Color3.new(0,1,0)
-		name.Text = "Over Heaven"
+		name.Text = "Beatrix"
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(0,0,0)
