@@ -116,10 +116,10 @@ remote.OnServerEvent:connect(function(Player)
 	elseif Player.Name == "altskipping" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0.819608, 0.145098, 0.729412)
-		name.Text = "alty"
+		name.Text = ""
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1, 1, 1)
-		role.Text = "Slurping that water" -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = "" -- add ur rank what u want it 2 be called [by rigs]
 	elseif Player.Name == "ppisbroken" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0, 0.333333, 1)
@@ -263,12 +263,12 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(1,1,1)
 		name.TextColor3 = Color3.new(0.0392157, 0.376471, 1)
-		name.Text = "Quite"
+		name.Text = ""
 		name.Font = Enum.Font.JosefinSans
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(0.0392157, 0.376471, 1)
-		role.Text = "Saikarie Pillar" -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = "" -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.JosefinSans
 	elseif Player.Name == "RonaldMcDonald9151" then
 		name.TextStrokeTransparency = 0
