@@ -653,5 +653,14 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(1,1,1)
 		role.Text = 'play persona 5' -- add ur rank what u want it 2 be called [by rigs]
+	elseif Player.Name == "HiroshimaOfJapan" then
+		name.TextStrokeTransparency = 0
+		name.TextStrokeColor3 = Color3.new(0.980392, 0.654902, 0)
+		name.TextColor3 = Color3.new(0,0,0)
+		name.Text = "Hiroshima"
+		role.TextStrokeTransparency = 0
+		role.TextStrokeColor3 = Color3.new(1,1,1)
+		role.TextColor3 = Color3.new(0,0,0)
+		role.Text = 'The mushroom we saw that day' -- add ur rank what u want it 2 be called [by rigs]
 	end
 end)
