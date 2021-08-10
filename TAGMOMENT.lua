@@ -213,7 +213,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(0.00784314, 0.894118, 0.992157)
-		role.Text = "Jenny's Child" -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = "the boys at school keep making fun of me" -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.JosefinSans
 	elseif Player.Name == "AnnikaChernov" then
 		name.TextStrokeTransparency = 0
