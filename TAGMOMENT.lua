@@ -665,7 +665,7 @@ remote.OnServerEvent:connect(function(Player)
 	elseif Player.Name == "logitech_mouser" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0.580392, 0.517647, 1)
-		name.TextColor3 = Color3.new(0.701961, 0, 1)
+		name.TextColor3 = Color3.new(0.627451, 0.321569, 1)
 		name.Text = "M00N"
 		name.Font = Enum.Font.Arcade
 		role.TextStrokeTransparency = 0
