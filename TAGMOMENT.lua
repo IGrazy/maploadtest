@@ -739,7 +739,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(1,1,1)
 		name.TextColor3 = Color3.new(0,0,0)
-		name.Text = "[REDACTED]"
+		name.Text = "John Wick"
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(0,0,0)
