@@ -773,5 +773,14 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(0,0,0)
 		role.Text = 'not retad' -- add ur rank what u want it 2 be called [by rigs]
+	elseif Player.Name == "Hi02Hqs" then
+		name.TextStrokeTransparency = 0
+		name.TextStrokeColor3 = Color3.new(1,1,1)
+		name.TextColor3 = Color3.new(1, 0.666667, 1)
+		name.Text = "Shiraa!~"
+		role.TextStrokeTransparency = 0
+		role.TextStrokeColor3 = Color3.new(1,1,1)
+		role.TextColor3 = Color3.new(1, 0.886275, 0.00392157)
+		role.Text = 'Universal Cumslut <3' -- add ur rank what u want it 2 be called [by rigs]
 	end
 end)
