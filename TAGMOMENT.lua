@@ -448,7 +448,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(0.345098, 0.396078, 0.94902)
-		role.Text = 'Great Runas' -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = 'btools noob' -- add ur rank what u want it 2 be called [by rigs]
 	elseif Player.Name == "GothPoggers" then
 		name.TextStrokeTransparency = 1
 		name.TextStrokeColor3 = Color3.new(1,1,1)
@@ -818,5 +818,14 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(0.6,0,0)
 		role.Text = 'Leader of the 1.0 Coalition' -- add ur rank what u want it 2 be called [by rigs]
+	elseif Player.Name == "JormungandKnows" then
+		name.TextStrokeTransparency = 0
+		name.TextStrokeColor3 = Color3.new(0,0,0)
+		name.TextColor3 = Color3.new(0.6,0,0)
+		name.Text = "Jörmungandr"
+		role.TextStrokeTransparency = 0
+		role.TextStrokeColor3 = Color3.new(0,0,0)
+		role.TextColor3 = Color3.new(0.6,0,0)
+		role.Text = 'Your local Russian' -- add ur rank what u want it 2 be called [by rigs]
 	end
 end)
