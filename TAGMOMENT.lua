@@ -843,9 +843,11 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeColor3 = Color3.new(0,0,0)
 		name.TextColor3 = Color3.new(1,1,1)
 		name.Text = "Slavcrab"
+		name.Font = Enum.Font.Creepster
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(1,1,1)
+		role.Font = Enum.Font.Creepster
 		role.Text = 'The Russian Neighbour' -- add ur rank what u want it 2 be called [by rigs]
 	end
 end)
