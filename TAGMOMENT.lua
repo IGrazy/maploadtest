@@ -30,7 +30,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(0.870588, 0.298039, 0.603922)
 		role.Text = "🌴 Rigs 🌴"
-	elseif Player.Name == "graxy_sadlife" then
+	elseif Player.Name == "gr_axy" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(1,1,1)
 		name.TextColor3 = Color3.new(0.494118, 0.0823529, 1)
