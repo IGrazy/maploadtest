@@ -902,5 +902,23 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeColor3 = Color3.new(1, 0.705882, 0.87451)
 		role.TextColor3 = Color3.new(1,1,1)
 		role.Text = 'ふしだらな' -- add ur rank what u want it 2 be called [by rigs]
+	elseif Player.Name == "Quantly" then
+		name.TextStrokeTransparency = 1
+		name.TextStrokeColor3 = Color3.new(0,0,0)
+		name.TextColor3 = Color3.new(1,0,0)
+		name.Text = "Q"
+		role.TextStrokeTransparency = 0
+		role.TextStrokeColor3 = Color3.new(0,0,0)
+		role.TextColor3 = Color3.new(1,0,0)
+		role.Text = 'British init' -- add ur rank what u want it 2 be called [by rigs]
+	elseif Player.Name == "NekomiyaMelody" then
+		name.TextStrokeTransparency = 1
+		name.TextStrokeColor3 = Color3.new(0,0,0)
+		name.TextColor3 = Color3.new(1,0,0)
+		name.Text = "Kuro"
+		role.TextStrokeTransparency = 0
+		role.TextStrokeColor3 = Color3.new(0,0,0)
+		role.TextColor3 = Color3.new(1,0,0)
+		role.Text = '' -- add ur rank what u want it 2 be called [by rigs]
 	end
 end)
