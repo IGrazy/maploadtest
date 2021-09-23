@@ -173,14 +173,14 @@ remote.OnServerEvent:connect(function(Player)
 		role.Font = Enum.Font.JosefinSans
 	elseif Player.Name == "Migunoo" then
 		name.TextStrokeTransparency = 0
-		name.TextStrokeColor3 = Color3.new(0,0,0)
-		name.TextColor3 = Color3.new(1, 0, 0)
-		name.Text = "Jenga"
+		name.TextStrokeColor3 = Color3.new(1, 0.14902, 0.988235)
+		name.TextColor3 = Color3.new(1, 1, 0.498039)
+		name.Text = "[(BIG SHOT)]"
 		name.Font = Enum.Font.JosefinSans
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(1,1,1)
-		role.Text = "Bulborb my beloved" -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = "" -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.JosefinSans
 	elseif Player.Name == "qrybhtfreynfhd" then
 		name.TextStrokeTransparency = 0
