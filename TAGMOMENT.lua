@@ -609,12 +609,12 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeColor3 = Color3.new(0,0,0)
 		name.TextColor3 = Color3.new(0.564706, 0.564706, 0.564706)
 		name.Text = "Exonerin"
-		name.Font = Enum.Font.Antique
+		name.Font = Enum.Font.Fantasy
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(0.301961, 0.301961, 0.301961)
 		role.Text = 'Servant of the Flame' -- add ur rank what u want it 2 be called [by rigs]
-		role.Font = Enum.Font.Antique
+		role.Font = Enum.Font.Fantasy
 	elseif Player.Name == "1TBstorage" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(1,1,1)
