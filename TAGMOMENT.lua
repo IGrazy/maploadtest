@@ -797,7 +797,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(0.5, 0.5, 0.5)
 		role.Text = 'Horny White Fox' -- add ur rank what u want it 2 be called [by rigs]
-	elseif Player.Name == "BonkNeedsSleep" then
+	elseif Player.Name == "BonkGetsBan" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0.254902, 0.4, 0.960784)
 		name.TextColor3 = Color3.new(1,1,1)
