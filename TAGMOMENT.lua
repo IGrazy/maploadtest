@@ -673,7 +673,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(1,1,1)
 		role.Font = Enum.Font.PermanentMarker
-		role.Text = 'le sleep cat' -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = 'le sleepy cat' -- add ur rank what u want it 2 be called [by rigs]
 	elseif Player.Name == "WanderReaper" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0,0,0)
