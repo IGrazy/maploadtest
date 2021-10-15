@@ -980,7 +980,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeTransparency = 1
 		name.TextStrokeColor3 = Color3.new(0,0,0)
 		name.TextColor3 = Color3.new(0.701961, 0.396078, 0.87451)
-		name.Text = "Azrnme"
+		name.Text = "Az"
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(1,1,1)
