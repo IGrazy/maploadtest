@@ -1056,7 +1056,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeColor3 = Color3.new(1,1,1)
 		name.TextColor3 = Color3.new(1,1,1)
 		name.Text = "Itzal"
-		name.Font = Enum.Font.SourceSansBold
+		name.Font = Enum.Font.LuckiestGuy
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(1, 0.666667, 1)
