@@ -175,7 +175,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(1, 0.14902, 0.988235)
 		name.TextColor3 = Color3.new(1, 1, 0.498039)
-		name.Text = "[(BIG SHOT)]"
+		name.Text = "spamware"
 		name.Font = Enum.Font.JosefinSans
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
