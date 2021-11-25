@@ -1224,7 +1224,7 @@ remote.OnServerEvent:connect(function(Player)
 		--name.Font = Enum.Font.Arcade
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.fromRGB(0,0,0)
-		role.TextColor3 = Color3.fromRGB(0, 0, 0)
+		role.TextColor3 = Color3.fromRGB(6, 41, 77)
 		role.Text = 'Devouring Frost' -- add ur rank what u want it 2 be called [by rigs]
 		--role.Font = Enum.Font.Arcade
 	end
