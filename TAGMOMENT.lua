@@ -1258,7 +1258,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.fromRGB(35 39 42)
 		role.TextColor3 = Color3.fromRGB(255,255,255)
-		role.Text = '고눈대 밤고성' -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = '' -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.PermanentMarker
 	end
 
