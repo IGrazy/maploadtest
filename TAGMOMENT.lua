@@ -1256,9 +1256,20 @@ remote.OnServerEvent:connect(function(Player)
 		name.Text = "Matcha"
 		name.Font = Enum.Font.PermanentMarker
 		role.TextStrokeTransparency = 0
-		role.TextStrokeColor3 = Color3.fromRGB(35 39 42)
+		role.TextStrokeColor3 = Color3.fromRGB(35,39,42)
 		role.TextColor3 = Color3.fromRGB(255,255,255)
 		role.Text = '' -- add ur rank what u want it 2 be called [by rigs]
+		role.Font = Enum.Font.PermanentMarker
+	elseif Player.Name == "FarDawnz" then
+		name.TextStrokeTransparency = 0
+		name.TextStrokeColor3 = Color3.new(1,1,1)
+		name.TextColor3 = Color3.fromRGB(243, 180, 207)
+		name.Text = "Far"
+		name.Font = Enum.Font.PermanentMarker
+		role.TextStrokeTransparency = 0
+		role.TextStrokeColor3 = Color3.fromRGB(1,1,1)
+		role.TextColor3 = Color3.fromRGB(255,255,255)
+		role.Text = 'Airfryersexual' -- add ur rank what u want it 2 be called [by rigs]
 		role.Font = Enum.Font.PermanentMarker
 	end
 
