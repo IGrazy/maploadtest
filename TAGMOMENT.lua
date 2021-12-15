@@ -21,7 +21,7 @@ remote.OnServerEvent:connect(function(Player)
 	local frame = ui.Frame
 	local name = frame.Name1
 	local role = frame.TextLabel
-	name.Text = Player.Name
+	name.Text = Player.DisplayName
 	role.Text = ""
 
 	if Player.Name == "Dev_Rigzzy" then
