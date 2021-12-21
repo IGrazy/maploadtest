@@ -1275,7 +1275,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(0,0,0)
 		name.TextColor3 = Color3.fromRGB(255,255,255)
-		name.Text = "Angel"
+		name.Text = "Phalia"
 		name.Font = Enum.Font.PermanentMarker
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.fromRGB(0,0,0)
