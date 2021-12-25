@@ -1353,7 +1353,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeTransparency = 1
 		name.TextStrokeColor3 = Color3.fromRGB(255,215,0)
 		name.TextColor3 = Color3.fromRGB(255,255,0)
-		name.Text = "🧀"
+		name.Text = "C"
 		name.Font = Enum.Font.Arcade
 		role.TextStrokeTransparency = 1
 		role.TextStrokeColor3 = Color3.fromRGB(255,215,0)
