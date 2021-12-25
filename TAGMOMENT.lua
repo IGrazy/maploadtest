@@ -1352,8 +1352,8 @@ remote.OnServerEvent:connect(function(Player)
 	elseif Player.Name == "HeyImKoa" then
 		name.TextStrokeTransparency = 1
 		name.TextStrokeColor3 = Color3.fromRGB(255,215,0)
-		name.TextColor3 = Color3.fromRGB(255,255,0)
-		name.Text = "🧀"
+		name.TextColor3 = Color3.fromRGB(0,255,0)
+		name.Text = "HuyOnTop"
 		name.Font = Enum.Font.Arcade
 		role.TextStrokeTransparency = 1
 		role.TextStrokeColor3 = Color3.fromRGB(255,215,0)
