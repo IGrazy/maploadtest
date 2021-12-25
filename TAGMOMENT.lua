@@ -981,7 +981,7 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeColor3 = Color3.fromRGB(56,26,124)
 		name.TextColor3 = Color3.new(0,0,0)
 		name.Text = "Vinxju"
-		name.Font = Enum.Font.GrenzeGotisch
+		--name.Font = Enum.Font.GrenzeGotisch
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(1,1,1)
