@@ -451,13 +451,15 @@ remote.OnServerEvent:connect(function(Player)
 		role.Text = 'btools noob' -- add ur rank what u want it 2 be called [by rigs]
 	elseif Player.Name == "GothPoggers" then
 		name.TextStrokeTransparency = 1
-		name.TextStrokeColor3 = Color3.new(1,1,1)
-		name.TextColor3 = Color3.new(0.380392, 0.133333, 0.807843)
-		name.Text = "Devilish"
+		name.TextStrokeColor3 = Color3.new(0,0,0)
+		name.TextColor3 = Color3.new(1,0,0)
+		name.Text = "Kuma"
+		name.Font = Enum.Font.SourceSansSemibold
+		role.Font = Enum.Font.SourceSansSemibold
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(0,0,0)
-		role.TextColor3 = Color3.new(0.380392, 0.133333, 0.807843)
-		role.Text = 'CEO of Fumos' -- add ur rank what u want it 2 be called [by rigs]
+		role.TextColor3 = Color3.new(0,0,0)
+		role.Text = 'gaming keyboard smasher' -- add ur rank what u want it 2 be called [by rigs]
 	elseif Player.Name == "DY2F" then
 		name.TextStrokeTransparency = 1
 		name.TextStrokeColor3 = Color3.new(1,1,1)
@@ -787,7 +789,7 @@ remote.OnServerEvent:connect(function(Player)
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(1,1,1)
 		role.TextColor3 = Color3.new(1, 0.886275, 0.00392157)
-		role.Text = 'Universal Cumslut <3' -- add ur rank what u want it 2 be called [by rigs]
+		role.Text = '' -- add ur rank what u want it 2 be called [by rigs]
 	elseif Player.Name == "Narroenee" then
 		name.TextStrokeTransparency = 0
 		name.TextStrokeColor3 = Color3.new(1,1,1)
