@@ -454,8 +454,8 @@ remote.OnServerEvent:connect(function(Player)
 		name.TextStrokeColor3 = Color3.new(0,0,0)
 		name.TextColor3 = Color3.new(1,0,0)
 		name.Text = "Kuma"
-		name.Font = Enum.Font.SourceSansSemibold
-		role.Font = Enum.Font.SourceSansSemibold
+		name.Font = Enum.Font.PermanentMarker
+		role.Font = Enum.Font.PermanentMarker
 		role.TextStrokeTransparency = 0
 		role.TextStrokeColor3 = Color3.new(0,0,0)
 		role.TextColor3 = Color3.new(0,0,0)
