@@ -1420,14 +1420,14 @@ remote.OnServerEvent:connect(function(Player)
 	elseif Player.Name == "Whoxly" then
 		name.TextStrokeTransparency = 1
 		name.TextStrokeColor3 = Color3.fromRGB(0,0,0)
-		name.TextColor3 = Color3.fromRGB(255, 243, 15)
+		name.TextColor3 = Color3.fromRGB(241,194,50)
 		name.Text = "Crusade"
-		name.Font = Enum.Font.Garamond
+		name.Font = Enum.Font.GrenzeGotisch
 		role.TextStrokeTransparency = 1
 		role.TextStrokeColor3 = Color3.fromRGB(0,0,0)
-		role.TextColor3 = Color3.fromRGB(255, 243, 15)
-		role.Text = "Holy Knight" -- add ur rank what u want it 2 be called [by rigs]
-		role.Font = Enum.Font.Garamond
+		role.TextColor3 = Color3.fromRGB(191,144,0)
+		role.Text = "The Last of Us Enthusiast" -- add ur rank what u want it 2 be called [by rigs]
+		role.Font = Enum.Font.Fondamento
 	elseif Player.Name == "TonyFCapone" then
 		name.TextStrokeTransparency = 1
 		name.TextStrokeColor3 = Color3.fromRGB(0,0,0)
